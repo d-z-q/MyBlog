@@ -1,0 +1,295 @@
+.top-title {
+	margin: 10px 10px;
+}
+
+.top-text {
+	color: lightcoral;
+
+}
+
+#top-nav {
+
+	margin: 20px auto;
+}
+
+#top-nav ul li {
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	float: left;
+	text-align: center;
+	margin: 0px 15px 0px 0px;
+}
+
+#nava {
+	color: #FFFFFF;
+
+}
+
+/* 文章推荐 */
+#left h3 span {
+	color: aqua;
+
+}
+
+#local-pos {
+	width: 730px;
+	height: 35px;
+	line-height: 30px;
+	margin: 5px 0;
+	border-bottom: 1px solid gray;
+}
+
+#local-pos span .current-pos {
+	color: #008000;
+}
+
+#left dl dd {
+	width: 500px;
+	margin-left: 5px;
+
+}
+
+.wz dl dd .author {
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 30px;
+
+}
+
+.wz dl dd .time {
+	display: block;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 5px;
+
+}
+
+.wz dl dd .category {
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 5px;
+}
+
+.wz dl dd .readmore {
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 20px;
+	border: 1px solid lightgray;
+}
+
+.about-title {
+	width: 260px;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid gray;
+}
+
+.about-me-text {
+
+	margin: 5px;
+}
+
+#about-me p {
+	text-align: left;
+
+	margin-left: 15px;
+	margin-bottom: 5px;
+}
+
+#about-me a .find-me {
+	margin-left: 15px;
+	display: block;
+	width: 93px;
+	height: 30px;
+	background: url(../img/qq_bg.png) no-repeat;
+
+}
+
+#about-me a .join-group {
+	margin-left: 30px;
+	display: block;
+	width: 97px;
+	height: 25px;
+	background: url(../img/qq_bg.png) -93px 0 no-repeat;
+}
+
+.lanmu {
+	width: 260px;
+	margin-top: 10px;
+}
+
+.lanmu .hd ul li {
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	float: left;
+}
+
+.lanmu .hd ul li.on {
+	height: 30px;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-bottom: 2px solid #fff;
+	border-top: 1px solid #f00;
+	cursor: pointer;
+}
+
+
+.bd {
+	width: 260px;
+	height: 150px;
+	text-align: left;
+	background: url("../img/list.png") 5px 5px no-repeat;
+	overflow: hidden;
+}
+
+
+
+.lanmu .bd ul {
+
+	zoom: 1;
+}
+
+.lanmu .bd ul li {
+	width: 230px;
+	height: 29px;
+	line-height: 29px;
+	padding-left: 30px;
+}
+
+.lanmu .bd ul li:hover {
+	padding-left: 35px;
+	transition: all 0.5s;
+
+
+}
+
+.lanmu .bd ul li a:hover {
+	color: red;
+}
+
+#end {
+	width: 1000px;
+	text-align: center;
+}
+
+#end span {
+
+	height: 30px;
+	line-height: 30px;
+
+	color: #5D5D5D;
+}
+
+
+/* 碎言碎语 */
+#talk-botton {
+	border: 1px solid gray;
+}
+
+#talk-botton #local-pos {
+	width: 1000px;
+	height: 35px;
+	line-height: 30px;
+	margin: 5px 0;
+	border-bottom: 1px solid gray;
+}
+
+.say-boxs .say-box {
+	width: 800px;
+	min-height: 70px;
+	max-height: 170px;
+	line-height: 30px;
+	position: relative;
+}
+
+.say-boxs .say-box p {
+	width: 650px;
+	min-height: 65px;
+	max-height: 150px;
+	padding-left: 10px;
+	margin: 10px;
+	font-size: 14px;
+	border: 1px solid gray;
+	border-radius: 10px;
+
+}
+
+.say-boxs .say-box span {
+	width: 100px;
+	height: 50px;
+	display: block;
+	border: 1px solid gray;
+	border-radius: 10px;
+	text-align: left;
+	position: absolute;
+	top: 10px;
+	left: 700px;
+}
+
+/* 个人日记 */
+.note dl {
+	width: 730px;
+
+}
+
+.note dl dt {
+
+	height: 150px;
+
+}
+
+.note dt img {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin: 10px;
+}
+
+.note dd p {
+	width: 550px;
+	height: 120px;
+	font-size: 16px;
+	margin-top: 10px;
+	border: 1px solid #CCCCCC;
+}
+
+/* 相册展示 */
+#photo-botton{
+	
+}
+#photo-botton .photos {
+	width: 1000px;
+	margin: 0 auto;
+	border:1px solid gray;
+	position: relative;
+	
+}
+#photo-botton #local-pos{
+	width: 1000px;
+	height: 40px;
+	line-height: 40px;
+	border:1px solid gray;
+}
+#photo-botton .photos .photo-item{
+	position: absolute;
+	
+}
+
