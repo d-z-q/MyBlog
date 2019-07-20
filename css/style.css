@@ -1,0 +1,84 @@
+body,div,ul,dl,dt,dd,li,p,img{
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+}
+h2{
+	height: 50px;
+    line-height:50px;
+	
+}
+h3{
+	margin: 10px auto 10px 0;
+}
+body {
+	
+	font-size: 14px;
+	background: #E3E3E5 url(../img/bg.jpg) 50% top scroll no-repeat;
+	color: #5d5d5d;
+
+}
+#all{
+	width: 1000px;
+	height: 800px;
+	margin: 0 auto;
+	
+}
+
+#left{
+	width: 730px;
+	height: 750px;
+    background: #fff;
+    border-radius: 1px;
+	border: 1px solid gray;
+	
+}
+#right{
+	width: 260px;
+	height: 600px;
+	text-align: center;
+	background: #fff;
+	border-radius: 1px;
+	border: 1px solid gray;
+}
+
+#end {
+	width: 1000px;
+	text-align: center;
+}
+
+#end span {
+
+	height: 30px;
+	line-height: 30px;
+
+	color: #5D5D5D;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+	
+}
+
+.float-clear {
+	clear: both;
+}
+
+a {
+	color: #5D5D5D;
+	text-decoration: none;
+}
+
+/*链接的 四种状态:link未访问,visited访问过,hover悬浮,active点击,注意顺序 */
+
+a:hover {
+	
+	color: blueviolet;
+} 
+li {
+	list-style-type: none;
+}
